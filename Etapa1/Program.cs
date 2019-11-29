@@ -1,5 +1,6 @@
 ﻿using System;
 using CoreEscuela.Entidades;
+using static System.Console;
 
 namespace Etapa1
 {
@@ -10,46 +11,67 @@ namespace Etapa1
             
             var escuela = new Escuela("Platzi Academy", 2012, TiposEscuela.PreEscolar, pais:"Colombia");
 
-            var arregloCursos = new Curso[4];
+            // var arregloCursos = new Curso[4] {
+            //     new Curso(){Nombre = "101"},
+            //     new Curso(){Nombre = "201"},
+            //     new Curso(){Nombre = "301"},
+            //     new Curso(){Nombre = "401"}
+            // };
 
-            arregloCursos[0] = new Curso(){
-                Nombre = "101"
+            // Curso[] arregloCursos1 = {
+            //     new Curso(){Nombre = "101"},
+            //     new Curso(){Nombre = "201"},
+            //     new Curso(){Nombre = "301"},
+            //     new Curso(){Nombre = "401"}
+            // };
+
+            escuela.cursos = new Curso[] {
+                new Curso(){Nombre = "101"},
+                new Curso(){Nombre = "201"},
+                new Curso(){Nombre = "301"},
+                new Curso(){Nombre = "401"}
             };
 
-
-            var curso2 = new Curso(){
-                Nombre = "201"
-            };
-
-            arregloCursos[1] = curso2;
-
-            arregloCursos[2] = new Curso(){
-                Nombre = "301"
-            };
-
-            arregloCursos[3] = new Curso{
-                                Nombre = "404"
-                               };
-
-            Console.WriteLine(escuela);
-            System.Console.WriteLine("=====================");
-            System.Console.WriteLine($"{arregloCursos[0].Nombre}, {arregloCursos[0].UniqueId}");
-            System.Console.WriteLine($"{curso2.Nombre}, {curso2.UniqueId}");
-            System.Console.WriteLine($"{arregloCursos[2].Nombre}, {arregloCursos[2].UniqueId}");
-            System.Console.WriteLine($"{arregloCursos[3].Nombre}, {arregloCursos[3].UniqueId}");
-
-            ImprimirCursos(arregloCursos);
-            
+            // escuela.cursos = null;
+            ImprimirCursosEscuela(escuela);
             
         }
+
+        private static void ImprimirCursosEscuela(Escuela escuela)
+        {
+            WriteLine("************************************");
+            WriteLine("IMPRIMIENDO LOS CURSOS DE LA ESCUELA");
+            WriteLine("************************************");
+
+            if (escuela?.cursos != null) //Si escuela es distinto de null pasa a verificar si escuela.cursos es null
+            {                           //si ninguna se cumple pasa a else.
+                foreach (var curso in escuela.cursos)
+                {
+                    WriteLine($"Nombre: {curso.Nombre}, Id: {curso.UniqueId}");
+                }
+            }
+            else{
+                return; //Devolverse, sin hacer nada.
+            }
+        }
+
         private static void ImprimirCursos(Curso[] arregloCursos)
         {
-            Console.WriteLine("");
-            Console.WriteLine("Imprimiendo por el método");
+            WriteLine("");
+            WriteLine("Imprimiendo por el método");
             for(int i=0; i < arregloCursos.Length;i++){
-                Console.WriteLine($"{arregloCursos[i].Nombre}, {arregloCursos[i].UniqueId}");
+                WriteLine($"{arregloCursos[i].Nombre}, {arregloCursos[i].UniqueId}");
             }
-            // throw new NotImplementedException();
+        }
+        private static void ImprimirCursosForEach(Curso[] arregloCursos)
+        {
+            WriteLine("");
+            WriteLine("Imprimiendo por el método ForEach");
+            
+            foreach (var curso in arregloCursos)
+            {
+                WriteLine($"{curso.Nombre}, {curso.UniqueId}");
+            }
         }
     }
 }

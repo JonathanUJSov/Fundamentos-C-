@@ -1,5 +1,6 @@
 //Espacio de nombres, para poder encontrar facilmente los objetos
 //en este caso las entidades de la escuela.
+
 namespace CoreEscuela.Entidades{
     class Escuela
     {
@@ -16,6 +17,8 @@ namespace CoreEscuela.Entidades{
         //Clase 12 del curso de C#
         public TiposEscuela tiposEscuela { get; set; }
 
+        //Clase 18
+        public Curso[] cursos { get; set; }
 
         //Médoto constructor
         // public Escuela(string nombre, int anio){
