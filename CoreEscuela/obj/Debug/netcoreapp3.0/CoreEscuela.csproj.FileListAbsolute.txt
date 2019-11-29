@@ -1,0 +1,22 @@
+C:\Users\jona_\CoreEscuela\bin\Debug\netcoreapp3.0\CoreEscuela.exe
+C:\Users\jona_\CoreEscuela\bin\Debug\netcoreapp3.0\CoreEscuela.deps.json
+C:\Users\jona_\CoreEscuela\bin\Debug\netcoreapp3.0\CoreEscuela.runtimeconfig.json
+C:\Users\jona_\CoreEscuela\bin\Debug\netcoreapp3.0\CoreEscuela.runtimeconfig.dev.json
+C:\Users\jona_\CoreEscuela\bin\Debug\netcoreapp3.0\CoreEscuela.dll
+C:\Users\jona_\CoreEscuela\bin\Debug\netcoreapp3.0\CoreEscuela.pdb
+C:\Users\jona_\CoreEscuela\obj\Debug\netcoreapp3.0\CoreEscuela.csprojAssemblyReference.cache
+C:\Users\jona_\CoreEscuela\obj\Debug\netcoreapp3.0\CoreEscuela.AssemblyInfoInputs.cache
+C:\Users\jona_\CoreEscuela\obj\Debug\netcoreapp3.0\CoreEscuela.AssemblyInfo.cs
+C:\Users\jona_\CoreEscuela\obj\Debug\netcoreapp3.0\CoreEscuela.dll
+C:\Users\jona_\CoreEscuela\obj\Debug\netcoreapp3.0\CoreEscuela.pdb
+C:\Users\jona_\Documents\Cursos\Platzi\Fundamentos de C# con NET Core\Programas\CoreEscuela\bin\Debug\netcoreapp3.0\CoreEscuela.exe
+C:\Users\jona_\Documents\Cursos\Platzi\Fundamentos de C# con NET Core\Programas\CoreEscuela\bin\Debug\netcoreapp3.0\CoreEscuela.deps.json
+C:\Users\jona_\Documents\Cursos\Platzi\Fundamentos de C# con NET Core\Programas\CoreEscuela\bin\Debug\netcoreapp3.0\CoreEscuela.runtimeconfig.json
+C:\Users\jona_\Documents\Cursos\Platzi\Fundamentos de C# con NET Core\Programas\CoreEscuela\bin\Debug\netcoreapp3.0\CoreEscuela.runtimeconfig.dev.json
+C:\Users\jona_\Documents\Cursos\Platzi\Fundamentos de C# con NET Core\Programas\CoreEscuela\bin\Debug\netcoreapp3.0\CoreEscuela.dll
+C:\Users\jona_\Documents\Cursos\Platzi\Fundamentos de C# con NET Core\Programas\CoreEscuela\bin\Debug\netcoreapp3.0\CoreEscuela.pdb
+C:\Users\jona_\Documents\Cursos\Platzi\Fundamentos de C# con NET Core\Programas\CoreEscuela\obj\Debug\netcoreapp3.0\CoreEscuela.csprojAssemblyReference.cache
+C:\Users\jona_\Documents\Cursos\Platzi\Fundamentos de C# con NET Core\Programas\CoreEscuela\obj\Debug\netcoreapp3.0\CoreEscuela.AssemblyInfoInputs.cache
+C:\Users\jona_\Documents\Cursos\Platzi\Fundamentos de C# con NET Core\Programas\CoreEscuela\obj\Debug\netcoreapp3.0\CoreEscuela.AssemblyInfo.cs
+C:\Users\jona_\Documents\Cursos\Platzi\Fundamentos de C# con NET Core\Programas\CoreEscuela\obj\Debug\netcoreapp3.0\CoreEscuela.dll
+C:\Users\jona_\Documents\Cursos\Platzi\Fundamentos de C# con NET Core\Programas\CoreEscuela\obj\Debug\netcoreapp3.0\CoreEscuela.pdb

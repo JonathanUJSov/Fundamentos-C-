@@ -1,0 +1,11 @@
+C:\Users\jona_\Documents\Cursos\Platzi\Fundamentos de C# con NET Core\Programas\HelloWorld\bin\Debug\netcoreapp3.0\HelloWorld.exe
+C:\Users\jona_\Documents\Cursos\Platzi\Fundamentos de C# con NET Core\Programas\HelloWorld\bin\Debug\netcoreapp3.0\HelloWorld.deps.json
+C:\Users\jona_\Documents\Cursos\Platzi\Fundamentos de C# con NET Core\Programas\HelloWorld\bin\Debug\netcoreapp3.0\HelloWorld.runtimeconfig.json
+C:\Users\jona_\Documents\Cursos\Platzi\Fundamentos de C# con NET Core\Programas\HelloWorld\bin\Debug\netcoreapp3.0\HelloWorld.runtimeconfig.dev.json
+C:\Users\jona_\Documents\Cursos\Platzi\Fundamentos de C# con NET Core\Programas\HelloWorld\bin\Debug\netcoreapp3.0\HelloWorld.dll
+C:\Users\jona_\Documents\Cursos\Platzi\Fundamentos de C# con NET Core\Programas\HelloWorld\bin\Debug\netcoreapp3.0\HelloWorld.pdb
+C:\Users\jona_\Documents\Cursos\Platzi\Fundamentos de C# con NET Core\Programas\HelloWorld\obj\Debug\netcoreapp3.0\HelloWorld.csprojAssemblyReference.cache
+C:\Users\jona_\Documents\Cursos\Platzi\Fundamentos de C# con NET Core\Programas\HelloWorld\obj\Debug\netcoreapp3.0\HelloWorld.AssemblyInfoInputs.cache
+C:\Users\jona_\Documents\Cursos\Platzi\Fundamentos de C# con NET Core\Programas\HelloWorld\obj\Debug\netcoreapp3.0\HelloWorld.AssemblyInfo.cs
+C:\Users\jona_\Documents\Cursos\Platzi\Fundamentos de C# con NET Core\Programas\HelloWorld\obj\Debug\netcoreapp3.0\HelloWorld.dll
+C:\Users\jona_\Documents\Cursos\Platzi\Fundamentos de C# con NET Core\Programas\HelloWorld\obj\Debug\netcoreapp3.0\HelloWorld.pdb
