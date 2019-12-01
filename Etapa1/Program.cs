@@ -7,6 +7,7 @@ namespace Etapa1
 {
     class Program
     {
+        
         static void Main(string[] args)
         {
             
@@ -40,10 +41,17 @@ namespace Etapa1
             ImprimirCursosEscuela(escuela);
             // WriteLine("Curso-Hash" + temp.GetHashCode()); //Obtener el Hascode de la colección, número que 
                                                              //todos los objetos tienen
-            Predicate<Curso> miAlgoritmo = Predicado; //Delegado que debe recibir el tipo de dato, utilizado 
+            // Predicate<Curso> miAlgoritmo = Predicado; //Delegado que debe recibir el tipo de dato, utilizado 
                                                      //para remover un elemento en específico, en este caso,
                                                      //el que tenga nombre = "301"
-            escuela.cursos.RemoveAll(miAlgoritmo);  //Llama a la función por cada elemento de la colección
+            // escuela.cursos.RemoveAll(miAlgoritmo);  //Llama a la función por cada elemento de la colección
+
+            escuela.cursos.RemoveAll(Predicado);  //Colocar solo el nombre del PREDICADO
+
+            escuela.cursos.RemoveAll(delegate (Curso cur) {
+                                                            return cur.Nombre == "301";
+                                                          }); //Delegado
+            escuela.cursos.RemoveAll((cur) => cur.Nombre == "301" && cur.Jornada == TiposJornada.mañana); //Expresión lambda de un delegado
             escuela.cursos.Remove(temp);
             ImprimirCursosEscuela(escuela);
             
